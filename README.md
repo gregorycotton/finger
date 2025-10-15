@@ -13,4 +13,4 @@ Quick Setup:
 3.  Restart `xinetd` service.
 4.  Create `.plan` file in a home directory (e.g., `/home/{user}/.plan`).
 
-Finger me: finger hello@gregorycotton.ca
+Finger me: `finger hello@gregorycotton.ca`
