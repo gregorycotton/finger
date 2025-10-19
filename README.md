@@ -1,16 +1,10 @@
-# Finger daemon in Python
+### Finger daemon
 
-Finger daemon for Linux, using `xinetd` to listen for requests.
+Finger me: `finger hello@gregorycotton.ca`
 
-Requires:
-* A Linux-based server,
-* Python 3,
-* `xinetd` service manager.
+**Quick setup**: requires Python3 and a unix-like OS that can run `xinetd`.
 
-Quick Setup:
 1.  Place `finger.py` in `/usr/local/bin/` and make it executable,
 2.  Create config file in `/etc/xinetd.d/` pointing to the script,
 3.  Restart `xinetd` service.
 4.  Create `.plan` file in a home directory (e.g., `/home/{user}/.plan`).
-
-Finger me: `finger hello@gregorycotton.ca`
